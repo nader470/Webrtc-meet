@@ -113,8 +113,8 @@ import {
     useEffect(() => {
         const peer = new Peer(userId, {
           host: "localhost",
-          port: 9001,
-          path: "/myapp",
+          port : 9001,
+          path : "/",            
       });
         setMe(peer);
   
